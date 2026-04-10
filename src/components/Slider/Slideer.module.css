@@ -1,0 +1,86 @@
+/* Slideer.module.css */
+.sliderContainer {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.arrowsHead {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1239px;
+  margin: 0 auto;
+}
+
+.sliderWrapper {
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  mask: linear-gradient(
+    to right,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+}
+
+.slider {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scrollbar-width: none; /* Скрываем скроллбар */
+  scroll-behavior: smooth;
+}
+
+.slider::-webkit-scrollbar {
+  display: none; /* Скрываем скроллбар в Chrome/Safari */
+}
+
+.sliderItem {
+  flex-shrink: 0;
+  width: 400px;
+  height: 240px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 28px;
+  border: solid 1px rgba(0, 0, 0, 0.467);
+  border-radius: 20px;
+  background: white;
+}
+
+.stars {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Стрелки */
+.arrowLeft,
+.arrowRight {
+  font-size: 50px;
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 768px) {
+  .sliderItem {
+    width: 260px;
+    height: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+
+  .slider {
+    gap: 15px;
+  }
+}

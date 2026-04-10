@@ -1,0 +1,8 @@
+.blackLine {
+  height: 122px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 0 100px;
+  gap: 106px;
+}

@@ -1,0 +1,79 @@
+.mainContentWrapper {
+  background: url(../../assets/Rectangle\ 2.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 24px;
+}
+
+.mainContent {
+  max-width: 1239px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.mainText {
+  font-size: 64px;
+  font-weight: bold;
+  max-width: 577px;
+  line-height: 64px;
+  padding-top: 103px;
+}
+
+.subText {
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 545px;
+  margin-top: 32px;
+}
+.btn {
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  height: 52px;
+  width: 210px;
+  border-radius: 62px;
+  margin-top: 32px;
+}
+.brand__head,
+.products__head,
+.customers__head {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.statistic {
+  display: flex;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.verticalLine {
+  height: 74px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.175);
+}
+
+.star1 {
+  position: absolute;
+  z-index: 999;
+  top: 297px;
+  left: 750px;
+}
+.star2 {
+  position: absolute;
+  z-index: 999;
+  left: 1255px;
+  top: 86px;
+  width: 104px;
+  height: 104px;
+}
+
+@media (max-width: 390px) {
+  .star1 {
+    display: none;
+  }
+  .star2 {
+    display: none;
+  }
+}

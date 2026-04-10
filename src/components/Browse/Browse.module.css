@@ -1,0 +1,35 @@
+.browse {
+  max-width: 1239px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+}
+
+.galary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.galary__topLine,
+.galary__bottomLine {
+  display: flex;
+  gap: 20px;
+}
+
+.partyImage {
+  width: 684px;
+}
+
+.gymImage {
+  width: 407px;
+}
+
+.headText {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.browse {
+  padding: 70px 64px;
+}

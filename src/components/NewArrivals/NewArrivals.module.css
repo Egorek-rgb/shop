@@ -1,0 +1,28 @@
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1239px;
+}
+.head {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 72px;
+  margin-bottom: 55px;
+}
+
+.itemName {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.cost {
+  font-size: 24px;
+  font-weight: bold;
+}
